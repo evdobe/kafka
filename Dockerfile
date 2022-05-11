@@ -4,5 +4,3 @@ USER root
 
 COPY target /
 RUN chmod ugo+x /opt/scripts/*.sh
-
-USER 1001
